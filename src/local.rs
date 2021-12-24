@@ -75,6 +75,7 @@ impl crate::Object for Object {
 			Some("jpg") => crate::Type::Image,
 			Some("m4v") => crate::Type::Video,
 			Some("mkv") => crate::Type::Video,
+			Some("m2ts") => crate::Type::Video,
 			Some("mp4") => crate::Type::Video,
 			Some("png") => crate::Type::Image,
 			Some("srt") => crate::Type::Subtitles,
